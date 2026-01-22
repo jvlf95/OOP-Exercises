@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ExerciciosGeral:jar3">
+    <output-path>$PROJECT_DIR$/out/artifacts/ExerciciosGeral_jar3</output-path>
+    <root id="archive" name="ExerciciosGeral.jar">
+      <element id="module-output" name="ExerciciosGeral" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/gson-2.13.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
