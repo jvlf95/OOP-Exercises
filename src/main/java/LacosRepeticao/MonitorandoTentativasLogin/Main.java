@@ -58,7 +58,7 @@ public class Main {
             }
 
             if(totalTentativas == 0){
-                System.out.println("Tentativas experidas, senha bloqueda! Contate o suporte!");
+                System.out.println("Tentativas expiradas, senha bloqueda! Contate o suporte!");
                 break;
             }
         }
