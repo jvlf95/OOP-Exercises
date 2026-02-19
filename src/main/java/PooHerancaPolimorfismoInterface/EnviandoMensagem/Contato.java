@@ -1,4 +1,4 @@
-package EnviandoMensagem;
+package PooHerancaPolimorfismoInterface.EnviandoMensagem;
 
 public class Contato {
     private String nome;
