@@ -8,11 +8,11 @@ public class Main {
     public static void main(String[]args){
         List<Integer> numbers = Arrays.asList(2,5,6,23,10,1,4,65,32,8);
 
-        List<Integer> primeNumbers = numbers.stream()
+        List<Integer> evenNumbers = numbers.stream()
                 .filter(n -> n % 2 ==0)
                 .sorted()
                 .collect(Collectors.toList());
 
-        primeNumbers.forEach(System.out::println);
+        evenNumbers.forEach(System.out::println);
     }
 }

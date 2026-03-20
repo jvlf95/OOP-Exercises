@@ -11,7 +11,7 @@ public class Main {
         words.stream()
                 .sorted()
                 .forEach(System.out::println);
-
+        System.out.println("\nUpper case words: ");
         List<String> upperCaseWords = words.stream()
                 .map(String::toUpperCase)
                 .sorted()
